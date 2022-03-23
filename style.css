@@ -1,0 +1,117 @@
+body{
+	background-image:linear-gradient(to right,red,blue);
+	padding: 40px;
+}
+body:hover{
+		background-image:linear-gradient(to right,white,orangeRed);
+}
+
+h1{ color:#008080;
+	margin-left:70px;
+	margin-top: -5px;
+	font-size: 60px;
+	transition-duration: 2s;
+
+}
+h1:hover{
+	color: #800000;
+	transform:rotateX(360deg);
+}
+
+
+h2{
+	margin-left: 560px;
+	margin-top: -400px;
+	font-size: 90px;
+	color: #fff;
+	transition-duration:2s;
+}
+h2:hover{
+	text-shadow: -80px 80px 0px rgba(255,255,255,0.3);
+}
+
+
+label{
+	font-size: 20px;
+	transition-duration: 500ms;
+
+}
+label:hover{
+	color: transparent;
+	text-shadow: -3px -3px  red;
+}
+
+img{ margin-top: -60px;
+	margin-left: 90px;
+	width: 100px;
+	height:100px;
+	border-radius: 100px;
+	border:3px solid cyan;
+	transition-duration: 2s;
+	}
+
+
+	
+.container{
+	width: 300px;
+	height: 440px;
+	background-color:#fff;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 20px;
+	border: 3px solid cyan;
+	box-shadow: 15px 15px 10px black;
+
+}
+.box{
+	margin-left: 60px;
+}
+
+.input{
+	border: none;
+	border-bottom: 2px solid cyan;
+	border-radius: 4px;
+	background-color: transparent;
+}
+.input:hover{
+	border-bottom: 4px solid #008080;
+	border-radius: 4px;
+}
+
+.input-btn{
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 20px;
+	border: 2px solid cyan;
+	font-family: poppins;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: 500;
+	cursor: pointer;
+	transition-duration: 1s;
+
+}
+
+.input-btn:hover{
+	box-shadow: 0 5px 50px  #008080;
+	background-color: #008080;
+	color: #ffff;
+	transform: rotate(360deg);
+	
+}
+a{
+	text-decoration: none;
+	font-size: 16px;
+	margin-left: -5px;
+	color:#1f90ff;
+}
+a:hover{
+	color:red;
+}
+
+.a2{
+	color: blue;
+}
+
+
